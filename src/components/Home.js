@@ -22,6 +22,7 @@ const Home = () => {
         ref={videoRef}
         src={Bgvid}
         className="absolute top-0 left-0 w-full h-full object-cover"
+        playsInline
         autoPlay
         muted
         loop={false}
