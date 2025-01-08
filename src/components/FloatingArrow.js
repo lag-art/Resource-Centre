@@ -30,7 +30,7 @@ const FloatingArrow = () => {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-2 text-lg  text-black p-3 rounded-full shadow-md hover:bg-yellow-400 transition duration-300"
+          className="fixed bottom-6 right-2 text-lg  text-black p-3 rounded-full shadow-md hover:bg-green-900 transition duration-300"
           aria-label="Back to top"
         >
           👆
